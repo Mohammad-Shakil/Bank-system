@@ -1,7 +1,7 @@
 package account
 
 type Account struct {
-	Name    string
-	Age     int
-	Balance int
+	Name    string `json:"name"`
+	Age     int    `json:"age"`
+	Balance int    `json:"balance"`
 }
